@@ -1,0 +1,29 @@
+:root {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+
+  
+  
+}
+
+
+
+html,
+body{
+  background-color: #191919;
+}
+.no-scroll{
+  overflow: hidden;
+}
+.scrollSmoothBar{
+  scroll-behavior: smooth;
+}
