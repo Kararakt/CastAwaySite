@@ -30,16 +30,16 @@ const items = [
       <h1 class="text-bold text-4xl text-white">Castaway</h1>
       <div class="flex gap-4 text-white">
         <font-awesome-icon
-          icon="fa-brands fa-instagram"
+          icon="fa-brands fa-youtube"
           class="cursor-pointer h-7"
         />
         <font-awesome-icon
-          icon="fa-brands fa-twitter"
+          icon="fa-brands fa-youtube"
           class="cursor-pointer h-7"
         />
         <font-awesome-icon
-          icon="fa-brands fa-facebook-f"
           class="cursor-pointer h-7"
+          icon="fa-brands fa-invision"
         />
       </div>
     </div>
