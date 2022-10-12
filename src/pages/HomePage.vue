@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import { ref, reactive } from "vue";
 import type { FormInstance } from "element-plus";
 import EpisodeCard from "../components/EpisodeCard.vue";
 import ReviewCard from "../components/ReviewCard.vue";

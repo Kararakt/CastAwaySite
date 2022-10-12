@@ -9,10 +9,19 @@ export default defineConfig({
   plugins: [
     vue(),
     AutoImport({
-      resolvers: [ElementPlusResolver()],
+        resolvers: [ElementPlusResolver()],
+        dts: "./auto-imports.d.ts",
+        include: [
+            /.[tj]sx?$/, // .ts, .tsx, .js, .jsx
+            /.vue$/,
+            /.vue?vue/, // .vue
+            /.md$/, // .md
+        ],
+        imports: ["vue", "vue-router"],
     }),
     Components({
-      resolvers: [ElementPlusResolver()],
+        resolvers: [ElementPlusResolver()],
+        dts: true,
     }),
-  ],
+],
 });

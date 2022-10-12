@@ -68,7 +68,7 @@
     font-size: 1.5rem;
     color: white;
 }
-.main-div-form--HomePage.el-input__wrapper:hover,
+.main-div-form--HomePage .el-input__wrapper:hover,
 .main-div-form--HomePage .el-input__wrapper.is-focus{
     box-shadow: 0 0 0 1px white;
 } 
